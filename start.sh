@@ -1,11 +1,15 @@
-#!/bin/bash
-if [[ $(ls | grep "gif_lib.h") == "" ]]; then
-curl -s https://raw.githubusercontent.com/dorkerdevil/CVE-2019-11932/master/gif_lib.h -o gif_lib.h
-fi
-if [[ $(ls | grep "egif_lib.c") == "" ]]; then
-curl -s https://raw.githubusercontent.com/dorkerdevil/CVE-2019-11932/master/egif_lib.c -o egif_lib.c
-fi
+#!/usr/bin/env bash
+
 dir=$(pwd)
+
+Lib=gif_lib.h
+Lib2=egif_lib.c
+
+if [[ -f ${Lib} || ${Lib2} ]]; then
+curl -s https://raw.githubusercontent.com/dorkerdevil/CVE-2019-11932/master/gif_lib.h -o gif_lib.h
+curl -s https://raw.githubusercontent.com/dorkerdevil/CVE-2019-11932/master/egif_lib.c -o egif_lib.c
+fi 
+
 main() {
 clear
 printf " 
