@@ -1,3 +1,8 @@
+# Requirments
+1. Install curl if you don't have one
+2. run an sudo (or with root), srcipt will use apt
+
+
 # WhatsRCE
 This is a Automated Generate Payload for CVE-2019-11932 (WhatsApp Remote Code Execution)
 
