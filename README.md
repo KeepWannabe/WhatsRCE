@@ -15,8 +15,8 @@ cd WhatsRCE && bash start.sh
 
 1. You just send the **.GIF** file to victim user **AS A DOCUMENT NOT IMAGES**
 2. And set the nc / netcat to port you set on the WhatsRCE tools {**nc -lnvp your_port**}
-3. You can use the Social Engineering attack so that victims can be attracted to launch this exploit
-4. tell the victim to open the gallery via whatsapp and send the victim to send any photos (no need, it's just got to the gallery no problem) after that a few seconds later you will receive a shell connection from the victim
+3. You can use the Social Engineering attack so that victim can be attracted to launch this exploit
+4. Tell the victim to open the gallery via whatsapp and ask the victim to send any photos (no need, it's just got to the gallery no problem) after that a few seconds later you will receive a shell connection from the victim
 
 or just watch this 
 
@@ -29,7 +29,7 @@ https://drive.google.com/open?id=1X9nBlf5oj5ef2UoYGOfusjxAiow8nKEK
 ## How To Avoid This Attack?
 
 1. Update your whatsapp to the latest version **(Patched on Version 2.19.244)**
-2. how to receive any file including audio images and others from people we don't know
+2. How to receive any file including audio images and others from people we don't know
 
 ### Thanks to [awakened1712](https://awakened1712.github.io/) - [Edo Maland](https://github.com/Screetsec/) - [IndoXploit](https://indoxploit.or.id)
 
